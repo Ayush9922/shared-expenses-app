@@ -1,0 +1,25 @@
+# Node dependency directories
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Local env configs
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+
+# Local databases
+*.db
+*.db-journal
+
+# IDE logs and configurations
+.vscode/
+.idea/
+.npm
+*.log
